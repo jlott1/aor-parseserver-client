@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leperone/aor-parseserver-client.git"
+    "url": "git+https://github.com/jlott1/aor-parseserver-client.git"
   },
   "files": [
     "LICENSE",
@@ -25,11 +25,11 @@
   "author": "Vincenzo Lepera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leperone/aor-parseserver-client/issues"
+    "url": "https://github.com/jlott1/aor-parseserver-client/issues"
   },
-  "homepage": "https://github.com/leperone/aor-parseserver-client#readme",
+  "homepage": "https://github.com/jlott1/aor-parseserver-client#readme",
   "dependencies": {
-    "admin-on-rest": "^1.0.0"
+    "admin-on-rest": "^1.0.0",
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",

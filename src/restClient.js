@@ -45,7 +45,11 @@ export default (parseConfig, httpClient = fetchJson) => {
 	    if (token !== null){
 		    options.headers.set('X-Parse-Session-Token', token);
 	    }
-	    
+
+	    if (parseConfig.useMasterKey && parseConfig['MASTER-KEY']) {
+            options.headers.set('X-Parse-Master-Key', parseConfig['MASTER-KEY']);
+        }
+
 	    switch (type) {
 	    case GET_LIST: {
 	        const page = (params.pagination && params.pagination.page != null) ? params.pagination.page : 1;
